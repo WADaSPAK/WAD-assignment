@@ -119,7 +119,7 @@ a:active {color:#000000; text-decoration:underline;}
 	background-color: #CCCCFC;
 }
 
-#content
+.content
 {
 	position: absolute;
 	left: 101px;
