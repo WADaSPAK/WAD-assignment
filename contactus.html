@@ -4,6 +4,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Desire For Attire</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function validate()
+{
+   if( document.ContactUs.fullname.value == "" )
+   {
+     alert( "Please provide your name!" );
+     document.ContactUs.fullname.focus() ;
+     return false;
+   }
+   if( document.ContactUs.email.value == "" )
+   {
+     alert( "Please provide your Email!" );
+     document.ContactUs.email.focus() ;
+     return false;
+   }
+   return( true );
+}
+//-->
+</script>
 </head>
 
 <body>
@@ -66,7 +86,7 @@
 	We will avail to reply to your questions or queries as soon as possible, but please note that replies by mail may take up to 5 business days.
 	<br><br>
 	* required fields
-	<form action="mailto:info@desireforattire.co.uk">
+	<form action="mailto:info@desireforattire.co.uk" name="ContactUs" onsubmit="return(validate());">
 	<table>
 	<tr>
 		<td width="17%">Your Full Name*:</td> 
