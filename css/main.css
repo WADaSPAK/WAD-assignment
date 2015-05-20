@@ -166,12 +166,21 @@ p
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
+.box1
+{
+	overflow:auto;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin:10px;
+}
+
 .box 
 {
 	overflow:auto;
     display: inline-block;
-    height: 171px;
-    width: 171px;
+    height: 250px;
+    width: 250px;
     margin:10px;
 }
 
