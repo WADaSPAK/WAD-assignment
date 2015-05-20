@@ -112,6 +112,9 @@ p
 	top: 170px;
 	height: 650px;
 	width: 500px;
+	overflow: auto;
+	font-size: 17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 #home-promotions
@@ -121,6 +124,9 @@ p
 	top: 170px;
 	height: 650px;
 	width: 500px;
+	overflow: auto;
+	font-size: 17px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 #content
