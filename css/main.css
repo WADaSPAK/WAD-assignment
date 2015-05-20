@@ -144,24 +144,6 @@ p
 	top: 300px;
 }
 
-.box 
-{
-	overflow:auto;
-    display: inline-block;
-    height: 171px;
-    width: 171px;
-    margin:10px;
-}
-
-.boxbig
-{
-	overflow:auto;
-    display: inline-block;
-    height: 340px;
-    width: 340px;
-    margin:10px;
-}
-
 #product-description
 {
 	position: absolute;
@@ -182,6 +164,33 @@ p
 	width: 950px;
 	font-size:17px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.box 
+{
+	overflow:auto;
+    display: inline-block;
+    height: 171px;
+    width: 171px;
+    margin:10px;
+}
+
+.boxbig
+{
+	overflow:auto;
+    display: inline-block;
+    height: 340px;
+    width: 340px;
+    margin:10px;
+}
+
+#addtobasket
+{
+	position: absolute;
+	left: 25px;
+	top: 230px;
+	height: 48px;
+	width: 199px;
 }
 
 table {
